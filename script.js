@@ -36,5 +36,5 @@ function startTimer() {
 }
 
 btn.addEventListener("click", function() {
-    alert("Hurray, here is your code!");
+    alert("Hurray,Your Code is : 467018 ");
 });
