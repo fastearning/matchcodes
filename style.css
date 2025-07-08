@@ -1,7 +1,7 @@
 *::-webkit-scrollbar{
     background: #888;
     border-radius: 10px;
-    width:1px;
+    width:2px;
 }
 body {
     font-family: Arial, sans-serif;
