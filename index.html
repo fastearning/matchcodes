@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Newzo Task Qolor Pay Task</title>
+    <title>Scroll Task</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id="scrollContainer">
-        <iframe id="fram1" src="https://nz.vayambharat.com/Lnk/SRWR202507090129091459988070" frameborder="0"></iframe>
+    <!-- FIRST iframe -->
+    <div class="container" id="scrollContainer1">
+        <iframe id="iframe1" src="https://nz.vayambharat.com/Lnk/SRWR202507091059391459988838" frameborder="0"></iframe>
     </div>
     <div class="text">
-        <label> Please wait <label id="time">30</label> seconds to get code </label>
+        <label id="label1">Please wait <label id="time1">15</label> seconds to unlock code</label>
     </div>
-    <button id="btn1" style="display:none;"><a href="page2.html">to Page 2</a></button>
-    
-    <script src="script2.js"></script>
+    <button id="btn1" style="display:none;">Step 2</button>
+
+    <!-- SECOND iframe -->
+    <div class="container" id="scrollContainer2" style="display:none;">
+        <iframe id="iframe2" src="https://google.com" frameborder="0"></iframe>
+    </div>
+    <div class="text" id="text2" style="display:none;">
+        <label>Please wait <label id="time2">15</label> seconds to complete task</label>
+    </div>
+
+    <!-- Final button -->
+    <button id="finalBtn" style="display:none;">Show Code</button>
+
+    <script src="script.js"></script>
 </body>
 </html>

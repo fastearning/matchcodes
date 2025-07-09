@@ -1,6 +1,4 @@
 *::-webkit-scrollbar{
-    background: #888;
-    border-radius: 10px;
     width:2px;
 }
 body {
@@ -34,7 +32,7 @@ iframe {
     color: #333;
 }
 
-button,a {
+button {
     padding: 12px 24px;
     font-size: 16px;
     background: #4CAF50;
