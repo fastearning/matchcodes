@@ -99,5 +99,5 @@ function showFinalButton() {
 }
 
 finalBtn.addEventListener("click", function() {
-    alert("Here is your code : 470730");
+   window.location.href = "intent://unlock_reward4#Intent;scheme=com.qolorco.paytask;end";
 });
