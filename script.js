@@ -40,5 +40,5 @@ function startTimer() {
 
 // On final button click
 finalBtn.addEventListener("click", function() {
-    window.location.href="https://shrinkme.ink/69GN3vHJ";
+    window.location.href="intent://unlock_reward3#Intent;scheme=com.qolorco.paytask;end";
 });
